@@ -9,3 +9,28 @@ body{
     --whiteColor: #ffffff;
 }
 
+h1 {
+    color: var(--goldenColor);/*Usar la variable*/
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    /* background-color: white; */
+}
+
+h2 {
+    color: var(--goldenColor)
+}
+
+p, h3 {
+    color: var(--whiteColor);/*Color de la fuente*/
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+ul {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
