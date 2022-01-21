@@ -34,3 +34,21 @@ ul {
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Source Code Pro', monospace;
 }
+
+/*DIV general que tiene todos los demas divs*/
+.container img {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 270px;
+    height: 270px;
+    border: 3px double var(--blackColor);
+}
+
+.container {
+    position: absolute;
+    margin-top: 10px;
+    word-wrap:break-word;/*Para que el texto se adapte al div*/
+    float: left;
+    border-radius: 10px;
+}
