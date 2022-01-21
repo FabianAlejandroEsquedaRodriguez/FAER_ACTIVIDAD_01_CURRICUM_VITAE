@@ -1,0 +1,47 @@
+body{
+    background-color: #B0C4DE;
+}
+
+:root {/*Declarar variables*/
+    --fontColor: #c0c0c0;
+    --backgroundColor: #ffffff;
+}
+
+span {
+    font-style: italic;
+    color: var(--fontColor);
+}
+
+#foto {
+    border: blue;
+    border-radius: 10px;
+    /*Centrar imagen*/
+    margin: 10px auto 10px;
+    display: block;
+}
+
+.container {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    position: fixed;
+    margin-top: 10px;
+    position: relative;
+}
+
+.son{
+    background-color: inherit; /*Herencia desde el padre (container)*/
+    border-radius: inherit;
+    width: auto;
+    height: auto;
+    position: fixed;
+
+     /*Centrar un div verticalmente*/
+    /* position: absolute;
+    top: 50%;*/
+}
+
+.inside { /*p*/
+    text-align: center;
+    /*top - right - bottom - left*/
+    padding: 0px 15px 0px 15px;
+}
