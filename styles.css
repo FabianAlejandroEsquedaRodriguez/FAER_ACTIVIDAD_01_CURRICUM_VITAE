@@ -1,0 +1,10 @@
+body{
+    background-color: #E6E6FA;
+}
+
+:root {
+    --fontColor: #191970;/*Declarar variable*/
+    --goldenColor: #FFD700;
+    --blackColor: #000000;
+    --whiteColor: #ffffff;
+}
