@@ -97,3 +97,28 @@ ul {
     margin-top: 5px;
     margin-bottom: 0px;
 }
+
+/*Para el DIV de mas informacion*/
+.more-data {
+    background-color: var(--blackColor);
+    position: absolute;/*Hace que el div se ajuste al texto*/
+    margin-left: 300px;
+    margin-top: 128px;
+    margin-bottom: 0px;
+
+    border-radius: 10px;
+    border: 3px double var(--goldenColor);
+    /*top - right - bottom - left*/
+    padding: 10px 175px 0px 10px;
+    height: auto;
+    text-align: inherit;
+}
+.first h3{ /*Primer h3 -> Para separarlo del h1*/
+    margin-top: -10px;
+}
+.more-data h3 {
+    color: var(--whiteColor);
+}
+.more-data ul{
+    color: var(--whiteColor);
+}
