@@ -67,3 +67,33 @@ ul {
     margin-left: 10px;
     border: 3px double var(--goldenColor);
 }
+
+/*Para el DIV del nombre y la carrera que estan hasta arriba*/
+.name {
+    background-color: var(--blackColor);
+    margin: 10px auto 10px;
+    border-radius: 10px;
+    position: absolute;/*Establece la posicion de manera absluta*/
+    margin-left: 300px;
+    text-align: center;
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px double var(--goldenColor);
+}
+.name h1{
+    background-color: inherit;
+    text-align: inherit;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.name h3{
+    text-align: inherit;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
